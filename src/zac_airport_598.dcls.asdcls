@@ -1,0 +1,11 @@
+@EndUserText.label: 'TYPE PFCG'
+@MappingRole: true
+define role ZAC_AIRPORT_598 {
+    grant 
+        select
+            on
+                zcds_airport_4_598
+                    where
+                        (valor) = aspect pfcg_auth(ZAO_FLIGT, ZAF_598, ACTVT = '03');
+                        
+}

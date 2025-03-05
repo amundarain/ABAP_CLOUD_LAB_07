@@ -1,0 +1,9 @@
+@EndUserText.label: 'Full Access'
+@MappingRole: true
+define role ZAC_AIRPORT_5_598 {
+    grant
+        select
+            on
+                zcds_airport_4_598; 
+                
+}
